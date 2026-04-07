@@ -10,14 +10,14 @@
     "cssVariables": true,
     "prefix": ""
   },
-  "iconLibrary": "lucide",
+  "iconLibrary": "phosphor",
   "rtl": false,
   "aliases": {
-    "components": "@/components",
-    "utils": "@/lib/utils",
-    "ui": "@/components/ui",
-    "lib": "@/lib",
-    "hooks": "@/hooks"
+    "components": "@/routes/~shared/components",
+    "utils": "@/routes/~shared/helpers/utils",
+    "ui": "@/routes/~shared/components/ui",
+    "lib": "@/routes/~shared/helpers",
+    "hooks": "@/routes/~shared/hooks"
   },
   "menuColor": "default",
   "menuAccent": "subtle",
