@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/oxlint/.oxlintrc.json",
+  "plugins": ["react", "react-hooks", "typescript", "unicorn", "oxc"],
+  "env": {
+    "browser": true,
+    "es2024": true
+  },
+  "globals": {
+    "React": "readonly"
+  },
+  "rules": {
+    "eqeqeq": "warn",
+    "no-var": "error",
+    "prefer-const": "warn",
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react/react-in-jsx-scope": "off",
+    "react/no-array-index-key": "warn",
+    "react/self-closing-comp": "warn",
+    "typescript/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "typescript/no-explicit-any": "warn",
+    "typescript/prefer-as-const": "warn"
+  },
+  "ignorePatterns": ["dist", "node_modules", "*.gen.ts"]
+}
